@@ -162,7 +162,8 @@ function buildMetadata(sample) {
     size: sample_values,
     color: otu_ids,
     //colorscale: "pick something"
-    //size
+ 
+    colorscale: "Jet"
 
   }
 }];
