@@ -138,15 +138,17 @@ function buildMetadata(sample) {
 
   Plotly.newPlot("bar", data, barLayout);
 
-  });
-}
-
-
 
 
   //////////////////////////////////////   
  ////// Bubble - Deliverable 2 ////////
 //////////////////////////////////////
+
+
+// Bar and Bubble charts
+
+    
+
 
  // 1. Create the trace for the bubble chart.
 
@@ -159,6 +161,8 @@ function buildMetadata(sample) {
   marker: {
     size: sample_values,
     color: otu_ids,
+    //colorscale: "pick something"
+    //size
 
   }
 }];
@@ -169,6 +173,7 @@ function buildMetadata(sample) {
 var bubbleLayout = {
   title: "Bacteria Cultures Per Sample",
   xaxis: {title:"OTU ID"},
+  //margins
   //hover text values = otu_labels
 };
 
@@ -177,3 +182,6 @@ var bubbleLayout = {
 
 
 Plotly.newPlot("bubble", bubbleData, bubbleLayout); 
+
+});
+}
