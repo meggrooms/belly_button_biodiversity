@@ -1,3 +1,4 @@
+
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
@@ -51,6 +52,47 @@ function buildMetadata(sample) {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
+    var frequency = parseFloat(result.wfreq)
+
+    var gaugeData = [
+      {
+        domain: {
+          x: [0,1], y: [0,1]
+        },
+        value: frequency, 
+        type: "indicator",
+        mode: "gauge+number",
+        gauge: {
+          bar: {
+            color: "black"
+          },
+          steps: [
+            {
+              range: [0,2], color: "red"
+            },
+            {
+              range: [2,4], color: "orange"
+            },
+            {
+              range: [4,6], color: "yellow"
+            },
+            {
+              range: [6,8], color: "green"
+            },
+            {
+              range: [8,10], color: "blue"
+            }
+            
+ 
+          ]
+        }
+      }
+    ]
+        var gaugeLayout = {
+          width: 500,
+          height: 425
+        }
+        Plotly.newPlot("gauge", gaugeData, gaugeLayout)
   });
 }
 
@@ -145,11 +187,6 @@ function buildMetadata(sample) {
 //////////////////////////////////////
 
 
-// Bar and Bubble charts
-
-    
-
-
  // 1. Create the trace for the bubble chart.
 
  var bubbleData = [{
@@ -186,3 +223,8 @@ Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
 });
 }
+
+
+  //////////////////////////////////////   
+ ////// Gauge - Deliverable 3  ////////
+//////////////////////////////////////
