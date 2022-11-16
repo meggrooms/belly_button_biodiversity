@@ -23,7 +23,9 @@ A study of the bacteria found in human navels.
 
 #### A bar chart is a way to provide an overall picture that is quickly processed visually.<BR>
 <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_barchart.png" width="700" 
-     height="700">
+     height="700"><HR>
+#### A bubble chart is a way to provide an overall picture that is quickly processed visually.<BR>
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_bubble_chart.png" width="1200" height="400">   
 
 
 
