@@ -1,3 +1,4 @@
+
 # From Bacteria to Beef
 A study of the bacteria found in human navels.
 <BR><BR>
@@ -12,8 +13,8 @@ A study of the bacteria found in human navels.
 <BR>
 • HTML
 <BR>
-• D3.json
-  <HR>
+• D3.json<BR>
+• VScode<HR>
     
 <b>Purpose: </b>
  Build an interactive dashboard to explore the biodiversity of bacteria found in the human navel. 
