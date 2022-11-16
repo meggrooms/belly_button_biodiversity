@@ -1,6 +1,9 @@
 # From Bacteria to Beef
 A study of the bacteria found in human navels.
 <BR><BR>
+ 
+# <a href="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png" target="_blank"> Interact with the data in real time </a>
+ <HR>
 <h2>In this project the following tools were used:</h2>
 <BR>
 • Plotly
@@ -29,6 +32,7 @@ A study of the bacteria found in human navels.
 <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_bubble_chart.png" width="1200" height="400">   
 
 #### Shower & bathing has an affect on bacteria population and a gague chart is perfect for illustrating the person's wash frequency and amount of bacteria present. <BR>
+   <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png">
 
 
 
