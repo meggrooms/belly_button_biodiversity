@@ -17,3 +17,19 @@ A study of the bacteria found in human navels.
 
 <b>Results:</b>
    The dataset reveals that a small handful of microbial species were present in greater than 70% of people, while the remaining bacteria were rarely found.
+<hr>
+<b> Charts created:</b>
+ The following chart types were created in order to best present the data in an understandable way.<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
