@@ -21,13 +21,14 @@ A study of the bacteria found in human navels.
 <b> Charts created:</b>
  The following chart types were created in order to best present the data in an understandable way.<br><br>
 
-#### A bar chart is a way to provide an overall picture that is quickly processed visually.<BR>
+#### A bar chart was chosen as a way to provide an overall picture that is quickly processed visually.<BR>
 <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_barchart.png" width="700" 
      height="700"><HR>
-#### A bubble chart is a way to provide an overall picture that is quickly processed visually.<BR>
+   
+#### I decided that a bubble chart would be a simple and visually compelling way to illustrate the population differences between the sample bacteria.<BR>
 <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_bubble_chart.png" width="1200" height="400">   
 
-
+#### Shower & bathing has an affect on bacteria population and a gague chart is perfect for illustrating the person's wash frequency and amount of bacteria present. <BR>
 
 
 
