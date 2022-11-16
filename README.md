@@ -21,7 +21,9 @@ A study of the bacteria found in human navels.
 <b> Charts created:</b>
  The following chart types were created in order to best present the data in an understandable way.<br><br>
 
-
+#### A bar chart is a way to provide an overall picture that is quickly processed visually.<BR>
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_barchart.png" width="700" 
+     height="700">
 
 
 
