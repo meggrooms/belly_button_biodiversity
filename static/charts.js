@@ -52,48 +52,57 @@ function buildMetadata(sample) {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
-    var frequency = parseFloat(result.wfreq)
 
-    var gaugeData = [
-      {
-        domain: {
-          x: [0,1], y: [0,1]
+
+ ///////////// Gauge Chart Deliverable 3 //////////////// 
+/////////////  Tutor advised to put 1st ////////////////
+
+
+var frequency = parseFloat(result.wfreq)
+
+var gaugeData = [
+  {
+    domain: {
+      x: [0,1], y: [0,1]
+    },
+    value: frequency, 
+    title : "Washings Per Week",
+    type: "indicator",
+    mode: "gauge+number", 
+    gauge: {
+      bar: {
+        color: "#1e2f97"
+      },
+      steps: [
+        {
+          range: [0,2], color: "#339900", text: "002",
         },
-        value: frequency, 
-        type: "indicator",
-        mode: "gauge+number",
-        gauge: {
-          bar: {
-            color: "black"
-          },
-          steps: [
-            {
-              range: [0,2], color: "red"
-            },
-            {
-              range: [2,4], color: "orange"
-            },
-            {
-              range: [4,6], color: "yellow"
-            },
-            {
-              range: [6,8], color: "green"
-            },
-            {
-              range: [8,10], color: "blue"
-            }
-            
- 
-          ]
+        {
+          range: [2,4], color: "#99cc33"
+        },
+        {
+          range: [4,6], color: "#ffcc00"
+        },
+        {
+          range: [6,8], color: "#ff9966"
+        },
+        {
+          range: [8,10], color: "#cc3300"
         }
-      }
-    ]
-        var gaugeLayout = {
-          width: 500,
-          height: 425
-        }
-        Plotly.newPlot("gauge", gaugeData, gaugeLayout)
-  });
+        
+
+      ]
+    }
+   
+  }
+]
+    var gaugeLayout = {
+    
+      width: 450,
+      height: 425
+    }
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout)
+});
 }
 
 // 1. Create the buildCharts function.
@@ -211,6 +220,7 @@ function buildMetadata(sample) {
 var bubbleLayout = {
   title: "Bacteria Cultures Per Sample",
   xaxis: {title:"OTU ID"},
+  width: 1000
   //margins
   //hover text values = otu_labels
 };
@@ -223,8 +233,3 @@ Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
 });
 }
-
-
-  //////////////////////////////////////   
- ////// Gauge - Deliverable 3  ////////
-//////////////////////////////////////
