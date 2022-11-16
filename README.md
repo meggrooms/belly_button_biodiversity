@@ -33,7 +33,9 @@ A study of the bacteria found in human navels.
 
 #### Shower & bathing has an affect on bacteria population and a gague chart is perfect for illustrating the person's wash frequency and amount of bacteria present. <BR>
    <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png">
-
+<HR>
+<b> Entire Visualization</b><BR>
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wholepage.png" width="1800" height="1500">
 
 
 
