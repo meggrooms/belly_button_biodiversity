@@ -3,7 +3,7 @@
 A study of the bacteria found in human navels.
 <BR><BR>
  
-# <a href="https://meggrooms.github.io/belly_button_biodiversity/" target="_blank"> Interact with data in real time</a>
+# <a href="https://meggrooms.github.io/belly_button_biodiversity/" target="_blank"> CLICK: Interactive Results Website</a>
  <HR>
 <h2>In this project the following tools were used:</h2>
 <BR>
