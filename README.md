@@ -1,9 +1,12 @@
 
-# From Bacteria to Beef
-A study of the bacteria found in human navels.
+# From Bacteria to Beef:
+## A study of the bacteria found in human navels.
+<BR><BR>
+The purpose of this project is to build an interactive dashboard to explore the biodiversity of bacteria found in the human navel.<BR>
+Researchers have identified a bacteria that exists in human navels that may possibly be used to create vegan "beef". They want to know how many people carry this bacteria, my job was to take the data and create an easy-to-use interactive dashboard to present to the researchers.
 <BR><BR>
  
-# <a href="https://meggrooms.github.io/belly_button_biodiversity/" target="_blank"> CLICK: Interactive Results Website</a>
+## <a href="https://meggrooms.github.io/belly_button_biodiversity/" target="_blank"> Interactive Dashboard</a>
  <HR>
 <h2>In this project the following tools were used:</h2>
 <BR>
