@@ -36,7 +36,8 @@ A study of the bacteria found in human navels.
    <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png">
 <HR>
 <b> Entire Visualization</b><BR>
-<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wholepage.png" width="1800" height="1500">
+<a href="https://meggrooms.github.io/belly_button_biodiversity/">
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wholepage.png" width="1800" height="1500"></a>
 
 
 
