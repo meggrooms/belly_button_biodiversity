@@ -26,14 +26,17 @@ A study of the bacteria found in human navels.
  The following chart types were created in order to best present the data in an understandable way.<br><br>
 
 #### A bar chart was chosen as a way to provide an overall picture that is quickly processed visually.<BR>
+<a href="https://meggrooms.github.io/belly_button_biodiversity/">
 <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_barchart.png" width="700" 
-     height="700"><HR>
+     height="700"></a><HR>
    
 #### I decided that a bubble chart would be a simple and visually compelling way to illustrate the population differences between the sample bacteria.<BR>
-<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_bubble_chart.png" width="1200" height="400">   
+<a href="https://meggrooms.github.io/belly_button_biodiversity/">
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/bb_bubble_chart.png" width="1200" height="400"> </a>
 
 #### Shower & bathing has an affect on bacteria population and a gague chart is perfect for illustrating the person's wash frequency and amount of bacteria present. <BR>
-   <img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png">
+<a href="https://meggrooms.github.io/belly_button_biodiversity/">
+<img src="https://github.com/meggrooms/belly_button_biodiversity/blob/main/images/wash_Freq.png"></a>
 <HR>
 <b> Entire Visualization</b><BR>
 <a href="https://meggrooms.github.io/belly_button_biodiversity/">
